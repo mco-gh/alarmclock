@@ -19,8 +19,10 @@ CHROMIUM_FLAGS="$CHROMIUM_FLAGS \
 --enable-oop-rasterization \
 --flag-switches-end \
 --kiosk \
+--start-maximized \
 --noerrdialogs \
 --disable-infobars \
 --disable-session-crashed-bubble \
 --hide-crash-restore-bubble \
---disable-restore-session-state"
+--disable-restore-session-state \
+--incognito"
