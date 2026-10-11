@@ -17,4 +17,8 @@ CHROMIUM_FLAGS="$CHROMIUM_FLAGS \
 --flag-switches-begin \
 --enable-gpu-rasterization \
 --enable-oop-rasterization \
---flag-switches-end"
+--flag-switches-end \
+--kiosk \
+--noerrdialogs \
+--disable-infobars \
+--disable-session-crashed-bubble"
