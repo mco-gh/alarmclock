@@ -21,4 +21,6 @@ CHROMIUM_FLAGS="$CHROMIUM_FLAGS \
 --kiosk \
 --noerrdialogs \
 --disable-infobars \
---disable-session-crashed-bubble"
+--disable-session-crashed-bubble \
+--hide-crash-restore-bubble \
+--disable-restore-session-state"
